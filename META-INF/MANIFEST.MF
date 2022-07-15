@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: net.labymod.main.QuickInstaller
+MC-VERSION: 1.12.2
+FMLCorePlugin: net.labymod.core.asm.LabyModCoreMod
+FMLCorePluginContainsFMLMod: true
+

@@ -1,0 +1,5087 @@
+{
+  "net/jpountz/lz4/LZ4FastDecompressor": {
+    "name": "net/jpountz/lz4/LZ4FastDecompressor",
+    "interfaces": [
+      "net/jpountz/lz4/LZ4Decompressor"
+    ]
+  },
+  "net/jpountz/lz4/LZ4SafeDecompressor": {
+    "name": "net/jpountz/lz4/LZ4SafeDecompressor",
+    "interfaces": [
+      "net/jpountz/lz4/LZ4UnknownSizeDecompressor"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash32$1": {
+    "name": "net/jpountz/xxhash/StreamingXXHash32$1",
+    "interfaces": [
+      "java/util/zip/Checksum"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash32JNI$Factory": {
+    "name": "net/jpountz/xxhash/StreamingXXHash32JNI$Factory",
+    "interfaces": [
+      "net/jpountz/xxhash/StreamingXXHash32$Factory"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash32JavaSafe$Factory": {
+    "name": "net/jpountz/xxhash/StreamingXXHash32JavaSafe$Factory",
+    "interfaces": [
+      "net/jpountz/xxhash/StreamingXXHash32$Factory"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash32JavaUnsafe$Factory": {
+    "name": "net/jpountz/xxhash/StreamingXXHash32JavaUnsafe$Factory",
+    "interfaces": [
+      "net/jpountz/xxhash/StreamingXXHash32$Factory"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash64$1": {
+    "name": "net/jpountz/xxhash/StreamingXXHash64$1",
+    "interfaces": [
+      "java/util/zip/Checksum"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash64JNI$Factory": {
+    "name": "net/jpountz/xxhash/StreamingXXHash64JNI$Factory",
+    "interfaces": [
+      "net/jpountz/xxhash/StreamingXXHash64$Factory"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash64JavaSafe$Factory": {
+    "name": "net/jpountz/xxhash/StreamingXXHash64JavaSafe$Factory",
+    "interfaces": [
+      "net/jpountz/xxhash/StreamingXXHash64$Factory"
+    ]
+  },
+  "net/jpountz/xxhash/StreamingXXHash64JavaUnsafe$Factory": {
+    "name": "net/jpountz/xxhash/StreamingXXHash64JavaUnsafe$Factory",
+    "interfaces": [
+      "net/jpountz/xxhash/StreamingXXHash64$Factory"
+    ]
+  },
+  "net/labymod/accountmanager/authentication/microsoft/model/minecraft/LoginResponse": {
+    "name": "net/labymod/accountmanager/authentication/microsoft/model/minecraft/LoginResponse",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/account/TokenAccessor"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessToken",
+        "value": {
+          "value": "access_token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokenType",
+        "value": {
+          "value": "token_type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "expiresIn",
+        "value": {
+          "value": "expires_in"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/authentication/microsoft/model/oauth/OAuthResponse": {
+    "name": "net/labymod/accountmanager/authentication/microsoft/model/oauth/OAuthResponse",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/account/TokenAccessor"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "errorDescription",
+        "value": {
+          "value": "error_description"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokenType",
+        "value": {
+          "value": "token_type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "expiresIn",
+        "value": {
+          "value": "expires_in"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessToken",
+        "value": {
+          "value": "access_token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "refreshToken",
+        "value": {
+          "value": "refresh_token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "userId",
+        "value": {
+          "value": "user_id"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XBLRequest": {
+    "name": "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XBLRequest",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "properties",
+        "value": {
+          "value": "Properties"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "relyingParty",
+        "value": {
+          "value": "RelyingParty"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokenType",
+        "value": {
+          "value": "TokenType"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XBLRequest$Properties": {
+    "name": "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XBLRequest$Properties",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "authMethod",
+        "value": {
+          "value": "AuthMethod"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "siteName",
+        "value": {
+          "value": "SiteName"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessToken",
+        "value": {
+          "value": "RpsTicket"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XSTSRequest": {
+    "name": "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XSTSRequest",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "properties",
+        "value": {
+          "value": "Properties"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "relyingParty",
+        "value": {
+          "value": "RelyingParty"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokenType",
+        "value": {
+          "value": "TokenType"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XSTSRequest$Properties": {
+    "name": "net/labymod/accountmanager/authentication/microsoft/model/xboxlive/XSTSRequest$Properties",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "sandboxId",
+        "value": {
+          "value": "SandboxId"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "userTokens",
+        "value": {
+          "value": "UserTokens"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/AbstractAccountStorage": {
+    "name": "net/labymod/accountmanager/storage/AbstractAccountStorage",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/AccountStorage"
+    ]
+  },
+  "net/labymod/accountmanager/storage/account/AbstractAccount": {
+    "name": "net/labymod/accountmanager/storage/account/AbstractAccount",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/account/Account"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessTokenExpiresAt",
+        "value": {
+          "value": "access_token_expires_at"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/external/model/ExternalAccount": {
+    "name": "net/labymod/accountmanager/storage/loader/external/model/ExternalAccount",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessToken",
+        "value": {
+          "value": "access_token"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/external/model/ExternalAccounts": {
+    "name": "net/labymod/accountmanager/storage/loader/external/model/ExternalAccounts",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "clientToken",
+        "value": {
+          "value": "client_token"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/external/model/ExternalMicrosoftAccount": {
+    "name": "net/labymod/accountmanager/storage/loader/external/model/ExternalMicrosoftAccount",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "refreshToken",
+        "value": {
+          "value": "refresh_token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "avatarImage",
+        "value": {
+          "value": "avatar_image"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokens",
+        "value": {
+          "value": "tokens"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/external/model/token/Token": {
+    "name": "net/labymod/accountmanager/storage/loader/external/model/token/Token",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "expiresAt",
+        "value": {
+          "value": "expires_at"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "additionalData",
+        "value": {
+          "value": "additional_data"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/external/model/token/TokenChain": {
+    "name": "net/labymod/accountmanager/storage/loader/external/model/token/TokenChain",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "microsoftToken",
+        "value": {
+          "value": "microsoft"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "xblToken",
+        "value": {
+          "value": "xbl"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "xstsToken",
+        "value": {
+          "value": "xsts"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/microsoft/model/msa/misc/DeviceIdentity": {
+    "name": "net/labymod/accountmanager/storage/loader/microsoft/model/msa/misc/DeviceIdentity",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "id",
+        "value": {
+          "value": "Id"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/microsoft/model/msa/misc/XALDefault": {
+    "name": "net/labymod/accountmanager/storage/loader/microsoft/model/msa/misc/XALDefault",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "id",
+        "value": {
+          "value": "default"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/microsoft/model/msa/msa/AccessToken": {
+    "name": "net/labymod/accountmanager/storage/loader/microsoft/model/msa/msa/AccessToken",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessTokens",
+        "value": {
+          "value": "access_token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "xalExpires",
+        "value": {
+          "value": "xal_expires"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/microsoft/model/msa/msa/MSA": {
+    "name": "net/labymod/accountmanager/storage/loader/microsoft/model/msa/msa/MSA",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "userId",
+        "value": {
+          "value": "user_id"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "refreshToken",
+        "value": {
+          "value": "refresh_token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "accessTokens",
+        "value": {
+          "value": "access_tokens"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/microsoft/model/msa/token/TokenData": {
+    "name": "net/labymod/accountmanager/storage/loader/microsoft/model/msa/token/TokenData",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/account/TokenAccessor"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "token",
+        "value": {
+          "value": "Token"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "notAfter",
+        "value": {
+          "value": "NotAfter"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "issueInstant",
+        "value": {
+          "value": "IssueInstant"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "clientAttested",
+        "value": {
+          "value": "ClientAttested"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "displayClaims",
+        "value": {
+          "value": "DisplayClaims"
+        }
+      }
+    ]
+  },
+  "net/labymod/accountmanager/storage/loader/microsoft/model/msa/user/Token": {
+    "name": "net/labymod/accountmanager/storage/loader/microsoft/model/msa/user/Token",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "msaUserId",
+        "value": {
+          "value": "MsaUserId"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "hasSignInDisplayClaims",
+        "value": {
+          "value": "HasSignInDisplayClaims"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "identityType",
+        "value": {
+          "value": "IdentityType"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "environment",
+        "value": {
+          "value": "Environment"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "sandbox",
+        "value": {
+          "value": "Sandbox"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokenType",
+        "value": {
+          "value": "TokenType"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "relyingParty",
+        "value": {
+          "value": "RelyingParty"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "subRelyingParty",
+        "value": {
+          "value": "SubRelyingParty"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tokenData",
+        "value": {
+          "value": "TokenData"
+        }
+      }
+    ]
+  },
+  "net/labymod/addon/LabyModOFAddon$2": {
+    "name": "net/labymod/addon/LabyModOFAddon$2",
+    "interfaces": [
+      "net/labymod/utils/request/ServerStatus"
+    ]
+  },
+  "net/labymod/addon/online/AddonDownloader$1": {
+    "name": "net/labymod/addon/online/AddonDownloader$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/addon/online/AddonInfoManager$1": {
+    "name": "net/labymod/addon/online/AddonInfoManager$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/addon/online/info/AddonInfo$1": {
+    "name": "net/labymod/addon/online/info/AddonInfo$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/addon/online/info/AddonInfo$1$1": {
+    "name": "net/labymod/addon/online/info/AddonInfo$1$1",
+    "interfaces": [
+      "net/labymod/addon/online/CallbackAddonDownloadProcess"
+    ]
+  },
+  "net/labymod/api/permissions/PermissionsListener": {
+    "name": "net/labymod/api/permissions/PermissionsListener",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent"
+    ]
+  },
+  "net/labymod/api/protocol/chunk/ChunkCachingProtocol": {
+    "name": "net/labymod/api/protocol/chunk/ChunkCachingProtocol",
+    "interfaces": [
+      "net/labymod/api/events/PluginMessageEvent",
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/api/protocol/chunk/Extracted": {
+    "name": "net/labymod/api/protocol/chunk/Extracted",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(S[BI)V",
+        "value": {
+          "values": [
+            "dataSize",
+            "data",
+            "decompressedLength"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/CinematicProtocol": {
+    "name": "net/labymod/api/protocol/cinematic/CinematicProtocol",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/Cubic": {
+    "name": "net/labymod/api/protocol/cinematic/Cubic",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(DDDD)V",
+        "value": {
+          "values": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/EnumPositionValue$1": {
+    "name": "net/labymod/api/protocol/cinematic/EnumPositionValue$1",
+    "interfaces": [
+      "net/labymod/api/protocol/cinematic/IPositionValueAdapter"
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/EnumPositionValue$2": {
+    "name": "net/labymod/api/protocol/cinematic/EnumPositionValue$2",
+    "interfaces": [
+      "net/labymod/api/protocol/cinematic/IPositionValueAdapter"
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/EnumPositionValue$3": {
+    "name": "net/labymod/api/protocol/cinematic/EnumPositionValue$3",
+    "interfaces": [
+      "net/labymod/api/protocol/cinematic/IPositionValueAdapter"
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/EnumPositionValue$4": {
+    "name": "net/labymod/api/protocol/cinematic/EnumPositionValue$4",
+    "interfaces": [
+      "net/labymod/api/protocol/cinematic/IPositionValueAdapter"
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/EnumPositionValue$5": {
+    "name": "net/labymod/api/protocol/cinematic/EnumPositionValue$5",
+    "interfaces": [
+      "net/labymod/api/protocol/cinematic/IPositionValueAdapter"
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/EnumPositionValue$6": {
+    "name": "net/labymod/api/protocol/cinematic/EnumPositionValue$6",
+    "interfaces": [
+      "net/labymod/api/protocol/cinematic/IPositionValueAdapter"
+    ]
+  },
+  "net/labymod/api/protocol/cinematic/Position": {
+    "name": "net/labymod/api/protocol/cinematic/Position",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(DDDDDD)V",
+        "value": {
+          "values": [
+            "x",
+            "y",
+            "z",
+            "yaw",
+            "pitch",
+            "tilt"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/api/protocol/screen/ScreenProtocol": {
+    "name": "net/labymod/api/protocol/screen/ScreenProtocol",
+    "interfaces": [
+      "net/labymod/api/protocol/screen/render/util/IInteractionCallback",
+      "net/labymod/api/events/ServerMessageEvent"
+    ]
+  },
+  "net/labymod/api/protocol/screen/render/GuiScreenProtocol": {
+    "name": "net/labymod/api/protocol/screen/render/GuiScreenProtocol",
+    "interfaces": [
+      "net/labymod/api/protocol/screen/render/util/IScreenAccessor"
+    ]
+  },
+  "net/labymod/api/protocol/screen/render/components/widgets/RenderColorPickerWidget": {
+    "name": "net/labymod/api/protocol/screen/render/components/widgets/RenderColorPickerWidget",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/api/protocol/shadow/ShadowProtocol": {
+    "name": "net/labymod/api/protocol/shadow/ShadowProtocol",
+    "interfaces": [
+      "net/labymod/utils/Consumer",
+      "net/labymod/api/events/PluginMessageEvent"
+    ]
+  },
+  "net/labymod/api/protocol/shadow/ShadowTransformerIn": {
+    "name": "net/labymod/api/protocol/shadow/ShadowTransformerIn",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lnet/labymod/api/protocol/shadow/ShadowProtocol;)V",
+        "value": {
+          "values": [
+            "shadow"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/api/protocol/shadow/ShadowTransformerOut": {
+    "name": "net/labymod/api/protocol/shadow/ShadowTransformerOut",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lnet/labymod/api/protocol/shadow/ShadowProtocol;)V",
+        "value": {
+          "values": [
+            "shadow"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/core/BoundingBox": {
+    "name": "net/labymod/core/BoundingBox",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(DDDDDD)V",
+        "value": {
+          "values": [
+            "minX",
+            "minY",
+            "minZ",
+            "maxX",
+            "maxY",
+            "maxZ"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/core/Vec3i": {
+    "name": "net/labymod/core/Vec3i",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "net/labymod/core/asm/LabyModCoreMod": {
+    "name": "net/labymod/core/asm/LabyModCoreMod",
+    "interfaces": [
+      "net/minecraftforge/fml/relauncher/IFMLLoadingPlugin"
+    ]
+  },
+  "net/labymod/core/asm/LabyModTransformer": {
+    "name": "net/labymod/core/asm/LabyModTransformer",
+    "interfaces": [
+      "net/minecraft/launchwrapper/IClassTransformer"
+    ]
+  },
+  "net/labymod/core/asm/mappings/Minecraft112MappingImplementation": {
+    "name": "net/labymod/core/asm/mappings/Minecraft112MappingImplementation",
+    "interfaces": [
+      "net/labymod/core/asm/MappingAdapter"
+    ]
+  },
+  "net/labymod/core/asm/mappings/Minecraft18MappingImplementation": {
+    "name": "net/labymod/core/asm/mappings/Minecraft18MappingImplementation",
+    "interfaces": [
+      "net/labymod/core/asm/MappingAdapter"
+    ]
+  },
+  "net/labymod/core/asm/mappings/UnobfuscatedImplementation": {
+    "name": "net/labymod/core/asm/mappings/UnobfuscatedImplementation",
+    "interfaces": [
+      "net/labymod/core/asm/MappingAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/CoreImplementation": {
+    "name": "net/labymod/core_implementation/mc112/CoreImplementation",
+    "interfaces": [
+      "net/labymod/core/CoreAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/ForgeImplementation": {
+    "name": "net/labymod/core_implementation/mc112/ForgeImplementation",
+    "interfaces": [
+      "net/labymod/core/ForgeAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/MappingImplementation": {
+    "name": "net/labymod/core_implementation/mc112/MappingImplementation",
+    "interfaces": [
+      "net/labymod/core/MappingAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/MathImplementation": {
+    "name": "net/labymod/core_implementation/mc112/MathImplementation",
+    "interfaces": [
+      "net/labymod/core/MathAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/MinecraftImplementation": {
+    "name": "net/labymod/core_implementation/mc112/MinecraftImplementation",
+    "interfaces": [
+      "net/labymod/core/MinecraftAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/MinecraftImplementation$1": {
+    "name": "net/labymod/core_implementation/mc112/MinecraftImplementation$1",
+    "interfaces": [
+      "bhq"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/ProtocolImplementation": {
+    "name": "net/labymod/core_implementation/mc112/ProtocolImplementation",
+    "interfaces": [
+      "net/labymod/core/ProtocolAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/RenderImplementation": {
+    "name": "net/labymod/core_implementation/mc112/RenderImplementation",
+    "interfaces": [
+      "net/labymod/core/RenderAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/RenderPlayerImplementation": {
+    "name": "net/labymod/core_implementation/mc112/RenderPlayerImplementation",
+    "interfaces": [
+      "net/labymod/core/RenderPlayerAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/ServerPingerImplementation": {
+    "name": "net/labymod/core_implementation/mc112/ServerPingerImplementation",
+    "interfaces": [
+      "net/labymod/core/ServerPingerAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/ServerPingerImplementation$1": {
+    "name": "net/labymod/core_implementation/mc112/ServerPingerImplementation$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/SoundImplementation": {
+    "name": "net/labymod/core_implementation/mc112/SoundImplementation",
+    "interfaces": [
+      "net/labymod/core/SoundAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/WorldRendererImplementation": {
+    "name": "net/labymod/core_implementation/mc112/WorldRendererImplementation",
+    "interfaces": [
+      "net/labymod/core/WorldRendererAdapter"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/gui/GuiChatAdapter$QueuedMessage": {
+    "name": "net/labymod/core_implementation/mc112/gui/GuiChatAdapter$QueuedMessage",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lnet/labymod/core_implementation/mc112/gui/GuiChatAdapter;Lhh;I)V",
+        "value": {
+          "values": [
+            "component",
+            "chatLineId"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/core_implementation/mc112/gui/ModPlayerTabOverlay$PlayerComparator": {
+    "name": "net/labymod/core_implementation/mc112/gui/ModPlayerTabOverlay$PlayerComparator",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/layer/LayerArrowCustom": {
+    "name": "net/labymod/core_implementation/mc112/layer/LayerArrowCustom",
+    "interfaces": [
+      "ccg"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/listener/ServerIncomingPacketListener": {
+    "name": "net/labymod/core_implementation/mc112/listener/ServerIncomingPacketListener",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/core_implementation/mc112/serverpinger/ServerPinger$1": {
+    "name": "net/labymod/core_implementation/mc112/serverpinger/ServerPinger$1",
+    "interfaces": [
+      "mq"
+    ]
+  },
+  "net/labymod/discordapp/DiscordApp": {
+    "name": "net/labymod/discordapp/DiscordApp",
+    "interfaces": [
+      "net/labymod/api/events/PluginMessageEvent",
+      "net/labymod/api/events/ServerMessageEvent"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/LOWEST"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/discordapp/DiscordApp$1": {
+    "name": "net/labymod/discordapp/DiscordApp$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/discordapp/DiscordApp$2": {
+    "name": "net/labymod/discordapp/DiscordApp$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$ByReference": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$ByReference",
+    "interfaces": [
+      "com/sun/jna/Structure$ByReference"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$ByValue": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$ByValue",
+    "interfaces": [
+      "com/sun/jna/Structure$ByValue"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$disconnected_callback": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$disconnected_callback",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$errored_callback": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$errored_callback",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$joinGame_callback": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$joinGame_callback",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$joinRequest_callback": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$joinRequest_callback",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$ready_callback": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$ready_callback",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordEventHandlers$spectateGame_callback": {
+    "name": "net/labymod/discordapp/api/DiscordEventHandlers$spectateGame_callback",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordJoinRequest$ByReference": {
+    "name": "net/labymod/discordapp/api/DiscordJoinRequest$ByReference",
+    "interfaces": [
+      "com/sun/jna/Structure$ByReference"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordJoinRequest$ByValue": {
+    "name": "net/labymod/discordapp/api/DiscordJoinRequest$ByValue",
+    "interfaces": [
+      "com/sun/jna/Structure$ByValue"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordLibraryProvider$1": {
+    "name": "net/labymod/discordapp/api/DiscordLibraryProvider$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerStatus"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordRPCLibrary": {
+    "name": "net/labymod/discordapp/api/DiscordRPCLibrary",
+    "interfaces": [
+      "com/sun/jna/Library"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordRichPresence$ByReference": {
+    "name": "net/labymod/discordapp/api/DiscordRichPresence$ByReference",
+    "interfaces": [
+      "com/sun/jna/Structure$ByReference"
+    ]
+  },
+  "net/labymod/discordapp/api/DiscordRichPresence$ByValue": {
+    "name": "net/labymod/discordapp/api/DiscordRichPresence$ByValue",
+    "interfaces": [
+      "com/sun/jna/Structure$ByValue"
+    ]
+  },
+  "net/labymod/discordapp/listeners/DisconnectListener": {
+    "name": "net/labymod/discordapp/listeners/DisconnectListener",
+    "interfaces": [
+      "net/labymod/discordapp/api/DiscordEventHandlers$disconnected_callback"
+    ]
+  },
+  "net/labymod/discordapp/listeners/ErroredListener": {
+    "name": "net/labymod/discordapp/listeners/ErroredListener",
+    "interfaces": [
+      "net/labymod/discordapp/api/DiscordEventHandlers$errored_callback"
+    ]
+  },
+  "net/labymod/discordapp/listeners/JoinGameListener": {
+    "name": "net/labymod/discordapp/listeners/JoinGameListener",
+    "interfaces": [
+      "net/labymod/discordapp/api/DiscordEventHandlers$joinGame_callback"
+    ]
+  },
+  "net/labymod/discordapp/listeners/JoinRequestListener": {
+    "name": "net/labymod/discordapp/listeners/JoinRequestListener",
+    "interfaces": [
+      "net/labymod/discordapp/api/DiscordEventHandlers$joinRequest_callback",
+      "net/labymod/api/events/MessageSendEvent"
+    ]
+  },
+  "net/labymod/discordapp/listeners/ReadyListener": {
+    "name": "net/labymod/discordapp/listeners/ReadyListener",
+    "interfaces": [
+      "net/labymod/discordapp/api/DiscordEventHandlers$ready_callback"
+    ]
+  },
+  "net/labymod/discordapp/listeners/SpectateGameListener": {
+    "name": "net/labymod/discordapp/listeners/SpectateGameListener",
+    "interfaces": [
+      "net/labymod/discordapp/api/DiscordEventHandlers$spectateGame_callback"
+    ]
+  },
+  "net/labymod/gui/GuiAddonRecommendation$RecommendedAddon": {
+    "name": "net/labymod/gui/GuiAddonRecommendation$RecommendedAddon",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/util/UUID;ZLnet/labymod/addon/online/info/OnlineAddonInfo;)V",
+        "value": {
+          "values": [
+            "uuid",
+            "required",
+            "onlineAddonInfo"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/gui/GuiServerList$1": {
+    "name": "net/labymod/gui/GuiServerList$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/gui/GuiServerList$2": {
+    "name": "net/labymod/gui/GuiServerList$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/GuiServerList$3": {
+    "name": "net/labymod/gui/GuiServerList$3",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/gui/GuiServerList$4": {
+    "name": "net/labymod/gui/GuiServerList$4",
+    "interfaces": [
+      "bkp"
+    ]
+  },
+  "net/labymod/gui/GuiShaderSelection$1": {
+    "name": "net/labymod/gui/GuiShaderSelection$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/GuiSignSearch$1": {
+    "name": "net/labymod/gui/GuiSignSearch$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/GuiSignSearch$2": {
+    "name": "net/labymod/gui/GuiSignSearch$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/GuiSignSearch$3": {
+    "name": "net/labymod/gui/GuiSignSearch$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/GuiSwitchServer$1": {
+    "name": "net/labymod/gui/GuiSwitchServer$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/GuiTags$1": {
+    "name": "net/labymod/gui/GuiTags$1",
+    "interfaces": [
+      "bkp"
+    ]
+  },
+  "net/labymod/gui/ModGuiMultiplayer$1": {
+    "name": "net/labymod/gui/ModGuiMultiplayer$1",
+    "interfaces": [
+      "bkp"
+    ]
+  },
+  "net/labymod/gui/ModGuiScreenServerList$1": {
+    "name": "net/labymod/gui/ModGuiScreenServerList$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/account/GuiAccountManager$1": {
+    "name": "net/labymod/gui/account/GuiAccountManager$1",
+    "interfaces": [
+      "java/util/function/Consumer"
+    ]
+  },
+  "net/labymod/gui/elements/ColorPicker$1": {
+    "name": "net/labymod/gui/elements/ColorPicker$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/elements/DropDownMenu$1": {
+    "name": "net/labymod/gui/elements/DropDownMenu$1",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/gui/elements/Tabs$1": {
+    "name": "net/labymod/gui/elements/Tabs$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/elements/Tabs$2": {
+    "name": "net/labymod/gui/elements/Tabs$2",
+    "interfaces": [
+      "net/labymod/gui/elements/TabbedGuiButton$IconRenderCallback"
+    ]
+  },
+  "net/labymod/gui/elements/Tabs$3": {
+    "name": "net/labymod/gui/elements/Tabs$3",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/gui/skin/SkinHandSettingElement$1": {
+    "name": "net/labymod/gui/skin/SkinHandSettingElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/gui/skin/SkinLayerSettingElement$1": {
+    "name": "net/labymod/gui/skin/SkinLayerSettingElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamechat/namehistory/NameHistoryUtil$1": {
+    "name": "net/labymod/ingamechat/namehistory/NameHistoryUtil$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/ingamechat/namehistory/NameHistoryUtil$2": {
+    "name": "net/labymod/ingamechat/namehistory/NameHistoryUtil$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/ingamechat/renderer/ChatLine": {
+    "name": "net/labymod/ingamechat/renderer/ChatLine",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;ZLjava/lang/String;Ljava/lang/Object;IILjava/lang/Integer;)V",
+        "value": {
+          "values": [
+            "message",
+            "secondChat",
+            "room",
+            "component",
+            "updateCounter",
+            "chatLineId",
+            "highlightColor"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/ingamechat/renderer/MessageData": {
+    "name": "net/labymod/ingamechat/renderer/MessageData",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(ZLnet/labymod/ingamechat/tools/filter/Filters$Filter;)V",
+        "value": {
+          "values": [
+            "displayInSecondChat",
+            "filter"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/ingamechat/tabs/GuiChatNameHistory$1": {
+    "name": "net/labymod/ingamechat/tabs/GuiChatNameHistory$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamechat/tools/autotext/AutoTextListener": {
+    "name": "net/labymod/ingamechat/tools/autotext/AutoTextListener",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamechat/tools/filter/Filters$Filter": {
+    "name": "net/labymod/ingamechat/tools/filter/Filters$Filter",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;ZSSSZZZLjava/lang/String;)V",
+        "value": {
+          "values": [
+            "filterName",
+            "wordsContains",
+            "wordsContainsNot",
+            "playSound",
+            "soundPath",
+            "highlightMessage",
+            "highlightColorR",
+            "highlightColorG",
+            "highlightColorB",
+            "hideMessage",
+            "displayInSecondChat",
+            "filterTooltips",
+            "room"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/ingamechat/tools/playermenu/PlayerMenu$PlayerMenuEntry": {
+    "name": "net/labymod/ingamechat/tools/playermenu/PlayerMenu$PlayerMenuEntry",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Z)V",
+        "value": {
+          "values": [
+            "displayName",
+            "command",
+            "sendInstantly"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/ingamechat/tools/shortcuts/Shortcuts$Shortcut": {
+    "name": "net/labymod/ingamechat/tools/shortcuts/Shortcuts$Shortcut",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "shortcut",
+            "replacement"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/ingamegui/Module$1": {
+    "name": "net/labymod/ingamegui/Module$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/ingamegui/Module$2": {
+    "name": "net/labymod/ingamegui/Module$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/Module$3": {
+    "name": "net/labymod/ingamegui/Module$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/ModuleGui$1": {
+    "name": "net/labymod/ingamegui/ModuleGui$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/ingamegui/modules/AfkTimerModule": {
+    "name": "net/labymod/ingamegui/modules/AfkTimerModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/ClickTestModule": {
+    "name": "net/labymod/ingamegui/modules/ClickTestModule",
+    "interfaces": [
+      "net/labymod/api/events/MouseInputEvent"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/ClickTestModule$1": {
+    "name": "net/labymod/ingamegui/modules/ClickTestModule$1",
+    "interfaces": [
+      "net/labymod/settings/elements/DropDownElement$DrowpDownLoadValue"
+    ]
+  },
+  "net/labymod/ingamegui/modules/ClickTestModule$2": {
+    "name": "net/labymod/ingamegui/modules/ClickTestModule$2",
+    "interfaces": [
+      "net/labymod/settings/elements/DropDownElement$DrowpDownLoadValue"
+    ]
+  },
+  "net/labymod/ingamegui/modules/ComboModule": {
+    "name": "net/labymod/ingamegui/modules/ComboModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/ComboModule$1": {
+    "name": "net/labymod/ingamegui/modules/ComboModule$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/FPSModule": {
+    "name": "net/labymod/ingamegui/modules/FPSModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderGameOverlay(Lnet/minecraftforge/client/event/RenderGameOverlayEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/FPSModule$1": {
+    "name": "net/labymod/ingamegui/modules/FPSModule$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/LavaTimerModule": {
+    "name": "net/labymod/ingamegui/modules/LavaTimerModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/MemoryModule$1": {
+    "name": "net/labymod/ingamegui/modules/MemoryModule$1",
+    "interfaces": [
+      "net/labymod/settings/elements/DropDownElement$DrowpDownLoadValue"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PingModule": {
+    "name": "net/labymod/ingamegui/modules/PingModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/PingModule$1": {
+    "name": "net/labymod/ingamegui/modules/PingModule$1",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PingModule$2": {
+    "name": "net/labymod/ingamegui/modules/PingModule$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PotionEffectsModule$1": {
+    "name": "net/labymod/ingamegui/modules/PotionEffectsModule$1",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PotionEffectsModule$2": {
+    "name": "net/labymod/ingamegui/modules/PotionEffectsModule$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PotionEffectsModule$3": {
+    "name": "net/labymod/ingamegui/modules/PotionEffectsModule$3",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PotionEffectsModule$4": {
+    "name": "net/labymod/ingamegui/modules/PotionEffectsModule$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PotionEffectsModule$5": {
+    "name": "net/labymod/ingamegui/modules/PotionEffectsModule$5",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/ingamegui/modules/PotionEffectsModule$6": {
+    "name": "net/labymod/ingamegui/modules/PotionEffectsModule$6",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/RangeModule$1": {
+    "name": "net/labymod/ingamegui/modules/RangeModule$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/ScoreboardModule$1": {
+    "name": "net/labymod/ingamegui/modules/ScoreboardModule$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "net/labymod/ingamegui/modules/ServerInfoModule$1": {
+    "name": "net/labymod/ingamegui/modules/ServerInfoModule$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/ServerSupportModule": {
+    "name": "net/labymod/ingamegui/modules/ServerSupportModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/SpeedModule": {
+    "name": "net/labymod/ingamegui/modules/SpeedModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$1": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$2": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$3": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$4": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$4",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$5": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$5",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$6": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$6",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/modules/YouTubeRealTimeModule$7": {
+    "name": "net/labymod/ingamegui/modules/YouTubeRealTimeModule$7",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$1": {
+    "name": "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$1",
+    "interfaces": [
+      "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$DurabilityBuilder"
+    ]
+  },
+  "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$2": {
+    "name": "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$2",
+    "interfaces": [
+      "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$DurabilityBuilder"
+    ]
+  },
+  "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$3": {
+    "name": "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$3",
+    "interfaces": [
+      "net/labymod/ingamegui/moduletypes/ItemModule$DurabilityVisibility$DurabilityBuilder"
+    ]
+  },
+  "net/labymod/ingamegui/moduletypes/ResizeableModule$1": {
+    "name": "net/labymod/ingamegui/moduletypes/ResizeableModule$1",
+    "interfaces": [
+      "net/labymod/ingamegui/ModuleGui$CoordinatesConsumer"
+    ]
+  },
+  "net/labymod/ingamegui/moduletypes/ResizeableModule$2": {
+    "name": "net/labymod/ingamegui/moduletypes/ResizeableModule$2",
+    "interfaces": [
+      "net/labymod/ingamegui/ModuleGui$CoordinatesConsumer"
+    ]
+  },
+  "net/labymod/ingamegui/moduletypes/ResizeableModule$3": {
+    "name": "net/labymod/ingamegui/moduletypes/ResizeableModule$3",
+    "interfaces": [
+      "net/labymod/ingamegui/ModuleGui$CoordinatesConsumer"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection": {
+    "name": "net/labymod/labyconnect/ClientConnection",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lio/netty/channel/ChannelHandler$Sharable;",
+        "target": "net/labymod/labyconnect/ClientConnection"
+      }
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$1": {
+    "name": "net/labymod/labyconnect/ClientConnection$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$2": {
+    "name": "net/labymod/labyconnect/ClientConnection$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$2$1": {
+    "name": "net/labymod/labyconnect/ClientConnection$2$1",
+    "interfaces": [
+      "io/netty/channel/ChannelFutureListener"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$3": {
+    "name": "net/labymod/labyconnect/ClientConnection$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$4": {
+    "name": "net/labymod/labyconnect/ClientConnection$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$5": {
+    "name": "net/labymod/labyconnect/ClientConnection$5",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$6": {
+    "name": "net/labymod/labyconnect/ClientConnection$6",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/ClientConnection$7": {
+    "name": "net/labymod/labyconnect/ClientConnection$7",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/GameIconHelper$1": {
+    "name": "net/labymod/labyconnect/GameIconHelper$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/GameIconHelper$1$1": {
+    "name": "net/labymod/labyconnect/GameIconHelper$1$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/LabyConnect": {
+    "name": "net/labymod/labyconnect/LabyConnect",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent"
+    ]
+  },
+  "net/labymod/labyconnect/LabyConnect$1": {
+    "name": "net/labymod/labyconnect/LabyConnect$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/LabyConnect$2": {
+    "name": "net/labymod/labyconnect/LabyConnect$2",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/labyconnect/gui/elements/WinPartnerProfile$1": {
+    "name": "net/labymod/labyconnect/gui/elements/WinPartnerProfile$1",
+    "interfaces": [
+      "bkp"
+    ]
+  },
+  "net/labymod/labyconnect/log/MessageChatComponent": {
+    "name": "net/labymod/labyconnect/log/MessageChatComponent",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;JLjava/lang/String;)V",
+        "value": {
+          "values": [
+            "sender",
+            "sentTime",
+            "message"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/labyconnect/packets/PacketActionPlay": {
+    "name": "net/labymod/labyconnect/packets/PacketActionPlay",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(SS[B)V",
+        "value": {
+          "values": [
+            "requestId",
+            "actionType",
+            "data"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/labyconnect/packets/PacketNotAllowed$1": {
+    "name": "net/labymod/labyconnect/packets/PacketNotAllowed$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/packets/PacketNotAllowed$2": {
+    "name": "net/labymod/labyconnect/packets/PacketNotAllowed$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/labyconnect/packets/PacketUpdateCosmetics": {
+    "name": "net/labymod/labyconnect/packets/PacketUpdateCosmetics",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "json"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/labyconnect/user/ChatUser": {
+    "name": "net/labymod/labyconnect/user/ChatUser",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lcom/mojang/authlib/GameProfile;Lnet/labymod/labyconnect/user/UserStatus;Ljava/lang/String;Lnet/labymod/labyconnect/user/ServerInfo;IJJLjava/lang/String;JJIZ)V",
+        "value": {
+          "values": [
+            "gameProfile",
+            "status",
+            "statusMessage",
+            "currentServerInfo",
+            "unreadMessages",
+            "lastInteraction",
+            "lastTyping",
+            "timeZone",
+            "lastOnline",
+            "firstJoined",
+            "contactAmount",
+            "party"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/labyplay/gui/elements/WinCurrentParty$1": {
+    "name": "net/labymod/labyplay/gui/elements/WinCurrentParty$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/labyplay/gui/elements/WinPartyCreator$1": {
+    "name": "net/labymod/labyplay/gui/elements/WinPartyCreator$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/labyplay/party/PartyResponseHandler": {
+    "name": "net/labymod/labyplay/party/PartyResponseHandler",
+    "interfaces": [
+      "net/labymod/labyplay/party/model/PartyListener"
+    ]
+  },
+  "net/labymod/labyplay/party/PartyResponseHandler$1": {
+    "name": "net/labymod/labyplay/party/PartyResponseHandler$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/labyplay/party/PartySystem": {
+    "name": "net/labymod/labyplay/party/PartySystem",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/labyplay/party/model/PartyInvite": {
+    "name": "net/labymod/labyplay/party/model/PartyInvite",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "username",
+            "partyUUID",
+            "partyName"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/labyplay/party/model/PartyMember": {
+    "name": "net/labymod/labyplay/party/model/PartyMember",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Ljava/util/UUID;ZZJ)V",
+        "value": {
+          "values": [
+            "name",
+            "uuid",
+            "owner",
+            "member",
+            "timestamp"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/labyplay/party/model/PartyMessage$Builder$Pair": {
+    "name": "net/labymod/labyplay/party/model/PartyMessage$Builder$Pair",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Lcom/google/gson/JsonElement;)V",
+        "value": {
+          "values": [
+            "key",
+            "element"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/main/DefinedSettings$1": {
+    "name": "net/labymod/main/DefinedSettings$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$10": {
+    "name": "net/labymod/main/DefinedSettings$10",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$11": {
+    "name": "net/labymod/main/DefinedSettings$11",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$12": {
+    "name": "net/labymod/main/DefinedSettings$12",
+    "interfaces": [
+      "net/labymod/settings/elements/DropDownElement$DrowpDownLoadValue"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$13": {
+    "name": "net/labymod/main/DefinedSettings$13",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$14": {
+    "name": "net/labymod/main/DefinedSettings$14",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$15": {
+    "name": "net/labymod/main/DefinedSettings$15",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$16": {
+    "name": "net/labymod/main/DefinedSettings$16",
+    "interfaces": [
+      "net/labymod/settings/elements/DropDownElement$DrowpDownLoadValue"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$2": {
+    "name": "net/labymod/main/DefinedSettings$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$3": {
+    "name": "net/labymod/main/DefinedSettings$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$4": {
+    "name": "net/labymod/main/DefinedSettings$4",
+    "interfaces": [
+      "net/labymod/settings/elements/DropDownElement$DrowpDownLoadValue"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$5": {
+    "name": "net/labymod/main/DefinedSettings$5",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$6": {
+    "name": "net/labymod/main/DefinedSettings$6",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$7": {
+    "name": "net/labymod/main/DefinedSettings$7",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$7$1": {
+    "name": "net/labymod/main/DefinedSettings$7$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$7$1$1": {
+    "name": "net/labymod/main/DefinedSettings$7$1$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$8": {
+    "name": "net/labymod/main/DefinedSettings$8",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/DefinedSettings$9": {
+    "name": "net/labymod/main/DefinedSettings$9",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/LabyMod": {
+    "name": "net/labymod/main/LabyMod",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "net/labymod/main/LabyMod",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "labymod"
+          },
+          "name": {
+            "value": "LabyMod"
+          },
+          "version": {
+            "value": "3.9.41"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/main/LabyMod$1": {
+    "name": "net/labymod/main/LabyMod$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/LabyMod$2": {
+    "name": "net/labymod/main/LabyMod$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/LabyMod$2$1": {
+    "name": "net/labymod/main/LabyMod$2$1",
+    "interfaces": [
+      "org/lwjgl/opengl/KHRDebugCallback$Handler"
+    ]
+  },
+  "net/labymod/main/LabyMod$3": {
+    "name": "net/labymod/main/LabyMod$3",
+    "interfaces": [
+      "bkp"
+    ]
+  },
+  "net/labymod/main/listeners/AddonRecommendationListener": {
+    "name": "net/labymod/main/listeners/AddonRecommendationListener",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent",
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/listeners/CapeReportCommand": {
+    "name": "net/labymod/main/listeners/CapeReportCommand",
+    "interfaces": [
+      "net/labymod/api/events/MessageSendEvent"
+    ]
+  },
+  "net/labymod/main/listeners/CapeReportCommand$1": {
+    "name": "net/labymod/main/listeners/CapeReportCommand$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/listeners/ClientTickListener": {
+    "name": "net/labymod/main/listeners/ClientTickListener",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/main/listeners/ClientTickListener$1": {
+    "name": "net/labymod/main/listeners/ClientTickListener$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/listeners/ClientTickListener$2": {
+    "name": "net/labymod/main/listeners/ClientTickListener$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/listeners/FOVUpdateListener": {
+    "name": "net/labymod/main/listeners/FOVUpdateListener",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onFovUpdate(Lnet/minecraftforge/client/event/FOVUpdateEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/main/listeners/GuiOpenListener": {
+    "name": "net/labymod/main/listeners/GuiOpenListener",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/LOWEST"
+          }
+        }
+      }
+    ]
+  },
+  "net/labymod/main/listeners/InputPromptListener": {
+    "name": "net/labymod/main/listeners/InputPromptListener",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent"
+    ]
+  },
+  "net/labymod/main/listeners/InputPromptListener$1": {
+    "name": "net/labymod/main/listeners/InputPromptListener$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/listeners/InputPromptListener$1$1": {
+    "name": "net/labymod/main/listeners/InputPromptListener$1$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/main/listeners/PluginMessageListener": {
+    "name": "net/labymod/main/listeners/PluginMessageListener",
+    "interfaces": [
+      "net/labymod/api/events/PluginMessageEvent"
+    ]
+  },
+  "net/labymod/main/listeners/RenderIngamePostOverlayListener": {
+    "name": "net/labymod/main/listeners/RenderIngamePostOverlayListener",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent",
+      "net/labymod/api/events/RenderIngameOverlayEvent"
+    ]
+  },
+  "net/labymod/main/listeners/RenderIngamePreOverlayListener": {
+    "name": "net/labymod/main/listeners/RenderIngamePreOverlayListener",
+    "interfaces": [
+      "net/labymod/api/events/RenderIngameOverlayEvent"
+    ]
+  },
+  "net/labymod/main/listeners/RenderTickListener": {
+    "name": "net/labymod/main/listeners/RenderTickListener",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/main/listeners/ServerSwitchListener": {
+    "name": "net/labymod/main/listeners/ServerSwitchListener",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent",
+      "net/labymod/utils/Consumer",
+      "net/labymod/gui/GuiSwitchServer$Result",
+      "net/labymod/api/events/MessageSendEvent"
+    ]
+  },
+  "net/labymod/main/listeners/ServerSwitchListener$1": {
+    "name": "net/labymod/main/listeners/ServerSwitchListener$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/listeners/ServerSwitchListener$2": {
+    "name": "net/labymod/main/listeners/ServerSwitchListener$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/listeners/ServerSwitchListener$3": {
+    "name": "net/labymod/main/listeners/ServerSwitchListener$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/update/LabyModUpdateChecker$1": {
+    "name": "net/labymod/main/update/LabyModUpdateChecker$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/main/update/Updater$1": {
+    "name": "net/labymod/main/update/Updater$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerStatus"
+    ]
+  },
+  "net/labymod/main/update/Updater$2": {
+    "name": "net/labymod/main/update/Updater$2",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/main/update/migration/LatestMinecraftPopupRenderer$1": {
+    "name": "net/labymod/main/update/migration/LatestMinecraftPopupRenderer$1",
+    "interfaces": [
+      "java/util/function/Consumer"
+    ]
+  },
+  "net/labymod/main/update/migration/LatestMinecraftPopupRenderer$2": {
+    "name": "net/labymod/main/update/migration/LatestMinecraftPopupRenderer$2",
+    "interfaces": [
+      "net/labymod/main/update/migration/InstallationProgressCallback"
+    ]
+  },
+  "net/labymod/main/update/migration/MigrationUpdater$1": {
+    "name": "net/labymod/main/update/migration/MigrationUpdater$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/update/migration/MigrationUpdater$2": {
+    "name": "net/labymod/main/update/migration/MigrationUpdater$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/update/migration/MigrationUpdater$2$1": {
+    "name": "net/labymod/main/update/migration/MigrationUpdater$2$1",
+    "interfaces": [
+      "java/util/function/Consumer"
+    ]
+  },
+  "net/labymod/main/update/migration/MigrationUpdater$3": {
+    "name": "net/labymod/main/update/migration/MigrationUpdater$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/main/update/migration/MigrationUpdater$4": {
+    "name": "net/labymod/main/update/migration/MigrationUpdater$4",
+    "interfaces": [
+      "net/labymod/addon/online/CallbackAddonDownloadProcess"
+    ]
+  },
+  "net/labymod/mojang/afec/EntityCulling$1": {
+    "name": "net/labymod/mojang/afec/EntityCulling$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/mojang/layer/CrownLayer": {
+    "name": "net/labymod/mojang/layer/CrownLayer",
+    "interfaces": [
+      "ccg"
+    ]
+  },
+  "net/labymod/serverapi/common/widgets/WidgetLayout": {
+    "name": "net/labymod/serverapi/common/widgets/WidgetLayout",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "slotWidth",
+        "value": {
+          "value": "slot_width"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "slotHeight",
+        "value": {
+          "value": "slot_height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "slotMarginX",
+        "value": {
+          "value": "slot_margin_x"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "slotMarginY",
+        "value": {
+          "value": "slot_margin_y"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "borderPaddingX",
+        "value": {
+          "value": "border_padding_x"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "borderPaddingY",
+        "value": {
+          "value": "border_padding_y"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "fontSize",
+        "value": {
+          "value": "font_size"
+        }
+      }
+    ]
+  },
+  "net/labymod/serverapi/common/widgets/components/widgets/ButtonWidget": {
+    "name": "net/labymod/serverapi/common/widgets/components/widgets/ButtonWidget",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "closeScreenOnClick",
+        "value": {
+          "value": "close_screen_on_click"
+        }
+      }
+    ]
+  },
+  "net/labymod/serverapi/common/widgets/components/widgets/ColorPickerWidget": {
+    "name": "net/labymod/serverapi/common/widgets/components/widgets/ColorPickerWidget",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "selectedColor",
+        "value": {
+          "value": "selected_color"
+        }
+      }
+    ]
+  },
+  "net/labymod/serverapi/common/widgets/components/widgets/ImageWidget": {
+    "name": "net/labymod/serverapi/common/widgets/components/widgets/ImageWidget",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "cutX",
+        "value": {
+          "value": "cut_x"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "cutY",
+        "value": {
+          "value": "cut_y"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "cutWidth",
+        "value": {
+          "value": "cut_width"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "cutHeight",
+        "value": {
+          "value": "cut_height"
+        }
+      }
+    ]
+  },
+  "net/labymod/serverapi/common/widgets/components/widgets/TextFieldWidget": {
+    "name": "net/labymod/serverapi/common/widgets/components/widgets/TextFieldWidget",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "maxLength",
+        "value": {
+          "value": "max_length"
+        }
+      }
+    ]
+  },
+  "net/labymod/servermanager/Server$1": {
+    "name": "net/labymod/servermanager/Server$1",
+    "interfaces": [
+      "net/labymod/api/events/TabListEvent"
+    ]
+  },
+  "net/labymod/servermanager/Server$2": {
+    "name": "net/labymod/servermanager/Server$2",
+    "interfaces": [
+      "net/labymod/api/events/PluginMessageEvent"
+    ]
+  },
+  "net/labymod/servermanager/Server$DisplayLine": {
+    "name": "net/labymod/servermanager/Server$DisplayLine",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Ljava/util/List;)V",
+        "value": {
+          "values": [
+            "key",
+            "values"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/servermanager/ServerGroupProvider$2": {
+    "name": "net/labymod/servermanager/ServerGroupProvider$2",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/servermanager/ServerManager": {
+    "name": "net/labymod/servermanager/ServerManager",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/servermanager/group/ServerGroup": {
+    "name": "net/labymod/servermanager/group/ServerGroup",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "serverName",
+        "value": {
+          "value": "server_name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "displayName",
+        "value": {
+          "value": "nice_name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "directIp",
+        "value": {
+          "value": "direct_ip"
+        }
+      }
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$1": {
+    "name": "net/labymod/settings/DefaultElementsCreator$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$10": {
+    "name": "net/labymod/settings/DefaultElementsCreator$10",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$11": {
+    "name": "net/labymod/settings/DefaultElementsCreator$11",
+    "interfaces": [
+      "net/labymod/gui/elements/CheckBox$DefaultCheckBoxValueCallback"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$12": {
+    "name": "net/labymod/settings/DefaultElementsCreator$12",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$13": {
+    "name": "net/labymod/settings/DefaultElementsCreator$13",
+    "interfaces": [
+      "net/labymod/gui/elements/CheckBox$DefaultCheckBoxValueCallback"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$14": {
+    "name": "net/labymod/settings/DefaultElementsCreator$14",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$15": {
+    "name": "net/labymod/settings/DefaultElementsCreator$15",
+    "interfaces": [
+      "net/labymod/gui/elements/CheckBox$DefaultCheckBoxValueCallback"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$16": {
+    "name": "net/labymod/settings/DefaultElementsCreator$16",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$17": {
+    "name": "net/labymod/settings/DefaultElementsCreator$17",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$18": {
+    "name": "net/labymod/settings/DefaultElementsCreator$18",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$19": {
+    "name": "net/labymod/settings/DefaultElementsCreator$19",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$2": {
+    "name": "net/labymod/settings/DefaultElementsCreator$2",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$20": {
+    "name": "net/labymod/settings/DefaultElementsCreator$20",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$21": {
+    "name": "net/labymod/settings/DefaultElementsCreator$21",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$22": {
+    "name": "net/labymod/settings/DefaultElementsCreator$22",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$23": {
+    "name": "net/labymod/settings/DefaultElementsCreator$23",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$24": {
+    "name": "net/labymod/settings/DefaultElementsCreator$24",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$25": {
+    "name": "net/labymod/settings/DefaultElementsCreator$25",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$3": {
+    "name": "net/labymod/settings/DefaultElementsCreator$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$4": {
+    "name": "net/labymod/settings/DefaultElementsCreator$4",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$5": {
+    "name": "net/labymod/settings/DefaultElementsCreator$5",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$6": {
+    "name": "net/labymod/settings/DefaultElementsCreator$6",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$7": {
+    "name": "net/labymod/settings/DefaultElementsCreator$7",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$8": {
+    "name": "net/labymod/settings/DefaultElementsCreator$8",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/DefaultElementsCreator$9": {
+    "name": "net/labymod/settings/DefaultElementsCreator$9",
+    "interfaces": [
+      "net/labymod/gui/elements/ColorPicker$DefaultColorCallback"
+    ]
+  },
+  "net/labymod/settings/LabyModAddonsGui$1": {
+    "name": "net/labymod/settings/LabyModAddonsGui$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/settings/LabyModAddonsGui$1$1": {
+    "name": "net/labymod/settings/LabyModAddonsGui$1$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/settings/LabyModAddonsGui$2": {
+    "name": "net/labymod/settings/LabyModAddonsGui$2",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$1": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$2": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$3": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$4": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$5": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$5",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$6": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$6",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$7": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$7",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$8": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$8",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/settings/LabyModModuleEditorGui$9": {
+    "name": "net/labymod/settings/LabyModModuleEditorGui$9",
+    "interfaces": [
+      "bkp"
+    ]
+  },
+  "net/labymod/settings/LabyModSettingsGui$1": {
+    "name": "net/labymod/settings/LabyModSettingsGui$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/PreviewRenderer$FastRenderConflict$1": {
+    "name": "net/labymod/settings/PreviewRenderer$FastRenderConflict$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/Settings$1": {
+    "name": "net/labymod/settings/Settings$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/settings/elements/BooleanElement$1": {
+    "name": "net/labymod/settings/elements/BooleanElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/BooleanElement$2": {
+    "name": "net/labymod/settings/elements/BooleanElement$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/BooleanElement$3": {
+    "name": "net/labymod/settings/elements/BooleanElement$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/BooleanElement$4": {
+    "name": "net/labymod/settings/elements/BooleanElement$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/BooleanElement$4$1": {
+    "name": "net/labymod/settings/elements/BooleanElement$4$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "net/labymod/settings/elements/DropDownElement$1": {
+    "name": "net/labymod/settings/elements/DropDownElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/DropDownElement$2": {
+    "name": "net/labymod/settings/elements/DropDownElement$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/KeyElement$1": {
+    "name": "net/labymod/settings/elements/KeyElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/KeyElement$2": {
+    "name": "net/labymod/settings/elements/KeyElement$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/KeyElement$3": {
+    "name": "net/labymod/settings/elements/KeyElement$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/NumberElement$1": {
+    "name": "net/labymod/settings/elements/NumberElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/NumberElement$2": {
+    "name": "net/labymod/settings/elements/NumberElement$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/NumberElement$3": {
+    "name": "net/labymod/settings/elements/NumberElement$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/SliderElement$1": {
+    "name": "net/labymod/settings/elements/SliderElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/SliderElement$2": {
+    "name": "net/labymod/settings/elements/SliderElement$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/SliderElement$3": {
+    "name": "net/labymod/settings/elements/SliderElement$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/SliderElement$4": {
+    "name": "net/labymod/settings/elements/SliderElement$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/StringElement$1": {
+    "name": "net/labymod/settings/elements/StringElement$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/StringElement$2": {
+    "name": "net/labymod/settings/elements/StringElement$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/StringElement$3": {
+    "name": "net/labymod/settings/elements/StringElement$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/settings/elements/StringElement$4": {
+    "name": "net/labymod/settings/elements/StringElement$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/splash/SplashLoader$1": {
+    "name": "net/labymod/splash/SplashLoader$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/splash/advertisement/Advertisement": {
+    "name": "net/labymod/splash/advertisement/Advertisement",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;ZZLjava/lang/String;Ljava/awt/Color;Ljava/awt/Color;Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "title",
+            "isNew",
+            "visible",
+            "url",
+            "color",
+            "colorHover",
+            "iconName"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/splash/splashdates/SplashDate": {
+    "name": "net/labymod/splash/splashdates/SplashDate",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;ZII)V",
+        "value": {
+          "values": [
+            "displayString",
+            "birthday",
+            "month",
+            "day"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/support/gui/GuiCosmeticPreview": {
+    "name": "net/labymod/support/gui/GuiCosmeticPreview",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/support/gui/GuiCosmeticPreview$1": {
+    "name": "net/labymod/support/gui/GuiCosmeticPreview$1",
+    "interfaces": [
+      "net/labymod/user/cosmetic/remote/IRemoteCallback"
+    ]
+  },
+  "net/labymod/support/gui/GuiCosmeticPreview$2": {
+    "name": "net/labymod/support/gui/GuiCosmeticPreview$2",
+    "interfaces": [
+      "net/labymod/gui/elements/DropDownMenu$DropDownEntryDrawer"
+    ]
+  },
+  "net/labymod/support/gui/GuiCosmeticPreview$3": {
+    "name": "net/labymod/support/gui/GuiCosmeticPreview$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/support/gui/GuiDebugConsole$2": {
+    "name": "net/labymod/support/gui/GuiDebugConsole$2",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ]
+  },
+  "net/labymod/support/gui/GuiDebugConsole$3": {
+    "name": "net/labymod/support/gui/GuiDebugConsole$3",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ]
+  },
+  "net/labymod/support/gui/GuiDebugConsole$4": {
+    "name": "net/labymod/support/gui/GuiDebugConsole$4",
+    "interfaces": [
+      "javax/swing/event/CaretListener"
+    ]
+  },
+  "net/labymod/support/gui/GuiDebugConsole$5": {
+    "name": "net/labymod/support/gui/GuiDebugConsole$5",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/support/gui/GuiMemoryUpgrade$1": {
+    "name": "net/labymod/support/gui/GuiMemoryUpgrade$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/support/listener/LabyConnectCommands": {
+    "name": "net/labymod/support/listener/LabyConnectCommands",
+    "interfaces": [
+      "net/labymod/api/events/MessageSendEvent"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lnet/labymod/labyconnect/ClientConnection;)V",
+        "value": {
+          "values": [
+            "connection"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/support/report/ReportArguments": {
+    "name": "net/labymod/support/report/ReportArguments",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "title",
+            "minecraftCrashReportFile",
+            "crashReportJson",
+            "addonPath",
+            "addonUUID",
+            "addonName"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/support/report/ReportData$1": {
+    "name": "net/labymod/support/report/ReportData$1",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$10": {
+    "name": "net/labymod/support/report/ReportData$10",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$11": {
+    "name": "net/labymod/support/report/ReportData$11",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$12": {
+    "name": "net/labymod/support/report/ReportData$12",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$2": {
+    "name": "net/labymod/support/report/ReportData$2",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$3": {
+    "name": "net/labymod/support/report/ReportData$3",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$4": {
+    "name": "net/labymod/support/report/ReportData$4",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$5": {
+    "name": "net/labymod/support/report/ReportData$5",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$6": {
+    "name": "net/labymod/support/report/ReportData$6",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$7": {
+    "name": "net/labymod/support/report/ReportData$7",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$8": {
+    "name": "net/labymod/support/report/ReportData$8",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/report/ReportData$9": {
+    "name": "net/labymod/support/report/ReportData$9",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/labymod/support/util/Debug$1": {
+    "name": "net/labymod/support/util/Debug$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/UserManager": {
+    "name": "net/labymod/user/UserManager",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent",
+      "net/labymod/api/events/PluginMessageEvent"
+    ]
+  },
+  "net/labymod/user/UserManager$1": {
+    "name": "net/labymod/user/UserManager$1",
+    "interfaces": [
+      "net/labymod/user/cosmetic/remote/IRemoteCallback"
+    ]
+  },
+  "net/labymod/user/UserManager$2": {
+    "name": "net/labymod/user/UserManager$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/UserManager$2$1": {
+    "name": "net/labymod/user/UserManager$2$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/UserManager$3": {
+    "name": "net/labymod/user/UserManager$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/UserManager$4": {
+    "name": "net/labymod/user/UserManager$4",
+    "interfaces": [
+      "net/labymod/user/util/UserResolvedCallback"
+    ]
+  },
+  "net/labymod/user/UserManager$5": {
+    "name": "net/labymod/user/UserManager$5",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/user/UserManager$5$1": {
+    "name": "net/labymod/user/UserManager$5$1",
+    "interfaces": [
+      "net/labymod/user/util/UserResolvedCallback"
+    ]
+  },
+  "net/labymod/user/UserManager$6": {
+    "name": "net/labymod/user/UserManager$6",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/user/UserManager$7": {
+    "name": "net/labymod/user/UserManager$7",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/user/UserManager$8": {
+    "name": "net/labymod/user/UserManager$8",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/ModelCosmetics": {
+    "name": "net/labymod/user/cosmetic/ModelCosmetics",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderWorld(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/ModelCosmetics$1": {
+    "name": "net/labymod/user/cosmetic/ModelCosmetics$1",
+    "interfaces": [
+      "net/labymod/user/cosmetic/remote/IRemoteCallback"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/head/CosmeticMustache$1": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/head/CosmeticMustache$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/head/CosmeticScarf$1": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/head/CosmeticScarf$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/pet/CosmeticPetDragon$1": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/pet/CosmeticPetDragon$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/pet/CosmeticPetDragon$2": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/pet/CosmeticPetDragon$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$1": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$2": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$3": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$3",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$4": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$4",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$5": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$5",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$6": {
+    "name": "net/labymod/user/cosmetic/cosmetics/shop/wings/CosmeticWingsSteampunk$6",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/cosmetic/custom/handler/CloakImageHandler$1": {
+    "name": "net/labymod/user/cosmetic/custom/handler/CloakImageHandler$1",
+    "interfaces": [
+      "net/labymod/utils/texture/ThreadDownloadTextureImage$TextureImageParser"
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/GeometryCosmetic": {
+    "name": "net/labymod/user/cosmetic/geometry/GeometryCosmetic",
+    "interfaces": [
+      "net/labymod/user/cosmetic/animation/IModelTransformer"
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/bedrock/BedrockCube": {
+    "name": "net/labymod/user/cosmetic/geometry/bedrock/BedrockCube",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "origin",
+        "value": {
+          "value": "origin"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "origin"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "size",
+        "value": {
+          "value": "size"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "size"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "pivot",
+        "value": {
+          "value": "pivot"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "pivot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "rotation",
+        "value": {
+          "value": "rotation"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "rotation"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mirror",
+        "value": {
+          "value": "mirror"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "mirror"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "inflate"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/bedrock/Bone": {
+    "name": "net/labymod/user/cosmetic/geometry/bedrock/Bone",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "name",
+        "value": {
+          "value": "name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "name"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "pivot",
+        "value": {
+          "value": "pivot"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "pivot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "parent",
+        "value": {
+          "value": "parent"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "parent"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "cubes",
+        "value": {
+          "value": "cubes"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "cubes"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "rotation",
+        "value": {
+          "value": "rotation"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "rotation"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/bedrock/Description": {
+    "name": "net/labymod/user/cosmetic/geometry/bedrock/Description",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "identifier",
+        "value": {
+          "value": "identifier"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "identifier"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "textureWidth",
+        "value": {
+          "value": "texture_width"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "textureWidth"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "textureHeight",
+        "value": {
+          "value": "texture_height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "textureHeight"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "visibleBoundsWidth",
+        "value": {
+          "value": "visible_bounds_width"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "visibleBoundsWidth"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "visibleBoundsHeight",
+        "value": {
+          "value": "visible_bounds_height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "visibleBoundsHeight"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "visibleBoundsOffset",
+        "value": {
+          "value": "visible_bounds_offset"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "visibleBoundsOffset"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/bedrock/Geometry": {
+    "name": "net/labymod/user/cosmetic/geometry/bedrock/Geometry",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "formatVersion",
+        "value": {
+          "value": "format_version"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "formatVersion"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "minecraftGeometry",
+        "value": {
+          "value": "minecraft:geometry"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "minecraftGeometry"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/bedrock/MinecraftGeometry": {
+    "name": "net/labymod/user/cosmetic/geometry/bedrock/MinecraftGeometry",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "description",
+        "value": {
+          "value": "description"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "description"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "bones",
+        "value": {
+          "value": "bones"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "bones"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/BlockBench": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/BlockBench",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "meta",
+        "value": {
+          "value": "meta"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "meta"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "name",
+        "value": {
+          "value": "name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "name"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "geometryName",
+        "value": {
+          "value": "geometry_name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "geometryName"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "moddedEntityVersion",
+        "value": {
+          "value": "modded_entity_version"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "moddedEntityVersion"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "visibleBox",
+        "value": {
+          "value": "visible_box"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "visibleBox"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "layeredTextures",
+        "value": {
+          "value": "layered_textures"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "layeredTextures"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "resolution",
+        "value": {
+          "value": "resolution"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "resolution"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "elements",
+        "value": {
+          "value": "elements"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "elements"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "outliner",
+        "value": {
+          "value": "outliner"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "outliner"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "textures",
+        "value": {
+          "value": "textures"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "textures"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/BlockBenchCube": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/BlockBenchCube",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "from",
+        "value": {
+          "value": "from"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "from"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "to",
+        "value": {
+          "value": "to"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "to"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "autouv",
+        "value": {
+          "value": "autouv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "autouv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "color",
+        "value": {
+          "value": "color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "color"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "locked",
+        "value": {
+          "value": "locked"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "locked"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "faces",
+        "value": {
+          "value": "faces"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "faces"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uuid",
+        "value": {
+          "value": "uuid"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uuid"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uvOffset",
+        "value": {
+          "value": "uv_offset"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uvOffset"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "inflate"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Down": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Down",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "texture",
+        "value": {
+          "value": "texture"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "texture"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/East": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/East",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "texture",
+        "value": {
+          "value": "texture"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "texture"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Faces": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Faces",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "north",
+        "value": {
+          "value": "north"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "north"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "east",
+        "value": {
+          "value": "east"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "east"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "south",
+        "value": {
+          "value": "south"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "south"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "west",
+        "value": {
+          "value": "west"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "west"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "up",
+        "value": {
+          "value": "up"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "up"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "down",
+        "value": {
+          "value": "down"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "down"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Group": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Group",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uuid",
+        "value": {
+          "value": "uuid"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uuid"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "export",
+        "value": {
+          "value": "export"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "export"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "isOpen",
+        "value": {
+          "value": "isOpen"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "isOpen"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "locked",
+        "value": {
+          "value": "locked"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "locked"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "visibility",
+        "value": {
+          "value": "visibility"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "visibility"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "autouv",
+        "value": {
+          "value": "autouv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "autouv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "children",
+        "value": {
+          "value": "children"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "children"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Item": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Item",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "name",
+        "value": {
+          "value": "name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "name"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "origin",
+        "value": {
+          "value": "origin"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "origin"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "rotation",
+        "value": {
+          "value": "rotation"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "rotation"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mirror",
+        "value": {
+          "value": "mirror"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "mirror"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Meta": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Meta",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "formatVersion",
+        "value": {
+          "value": "format_version"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "formatVersion"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "creationTime",
+        "value": {
+          "value": "creation_time"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "creationTime"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "modelFormat",
+        "value": {
+          "value": "model_format"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "modelFormat"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "boxUv",
+        "value": {
+          "value": "box_uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "boxUv"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/North": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/North",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "texture",
+        "value": {
+          "value": "texture"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "texture"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Resolution": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Resolution",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "width",
+        "value": {
+          "value": "width"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "width"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "height",
+        "value": {
+          "value": "height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "height"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/South": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/South",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "texture",
+        "value": {
+          "value": "texture"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "texture"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Texture": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Texture",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "path",
+        "value": {
+          "value": "path"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "path"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "name",
+        "value": {
+          "value": "name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "name"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "folder",
+        "value": {
+          "value": "folder"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "folder"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "namespace",
+        "value": {
+          "value": "namespace"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "namespace"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "id",
+        "value": {
+          "value": "id"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "id"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "particle",
+        "value": {
+          "value": "particle"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "particle"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "visible",
+        "value": {
+          "value": "visible"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "visible"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mode",
+        "value": {
+          "value": "mode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "mode"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "saved",
+        "value": {
+          "value": "saved"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "saved"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uuid",
+        "value": {
+          "value": "uuid"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uuid"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "source",
+        "value": {
+          "value": "source"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "source"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/Up": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/Up",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "texture",
+        "value": {
+          "value": "texture"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "texture"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/geometry/blockbench/West": {
+    "name": "net/labymod/user/cosmetic/geometry/blockbench/West",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "uv",
+        "value": {
+          "value": "uv"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "uv"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "texture",
+        "value": {
+          "value": "texture"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/Expose;",
+        "target": "texture"
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/layers/LayerCustomCape": {
+    "name": "net/labymod/user/cosmetic/layers/LayerCustomCape",
+    "interfaces": [
+      "ccg"
+    ]
+  },
+  "net/labymod/user/cosmetic/layers/ParticleStar": {
+    "name": "net/labymod/user/cosmetic/layers/ParticleStar",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(DDJ)V",
+        "value": {
+          "values": [
+            "x",
+            "y",
+            "timestampSpawned"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/user/cosmetic/pet/ai/FlyingAI": {
+    "name": "net/labymod/user/cosmetic/pet/ai/FlyingAI",
+    "interfaces": [
+      "net/labymod/user/cosmetic/pet/ai/PetAI"
+    ]
+  },
+  "net/labymod/user/cosmetic/pet/ai/WalkingPet": {
+    "name": "net/labymod/user/cosmetic/pet/ai/WalkingPet",
+    "interfaces": [
+      "net/labymod/user/cosmetic/pet/ai/PetAI"
+    ]
+  },
+  "net/labymod/user/cosmetic/pet/object/CosmeticPet": {
+    "name": "net/labymod/user/cosmetic/pet/object/CosmeticPet",
+    "interfaces": [
+      "net/labymod/user/cosmetic/animation/IModelTransformer"
+    ]
+  },
+  "net/labymod/user/cosmetic/pet/util/Vector": {
+    "name": "net/labymod/user/cosmetic/pet/util/Vector",
+    "interfaces": [
+      "java/lang/Cloneable"
+    ]
+  },
+  "net/labymod/user/cosmetic/remote/RemoteCosmeticLoader$1": {
+    "name": "net/labymod/user/cosmetic/remote/RemoteCosmeticLoader$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/user/cosmetic/remote/RemoteCosmeticLoader$2": {
+    "name": "net/labymod/user/cosmetic/remote/RemoteCosmeticLoader$2",
+    "interfaces": [
+      "net/labymod/user/cosmetic/geometry/IGeometryProviderCallback"
+    ]
+  },
+  "net/labymod/user/cosmetic/remote/RemoteCosmeticLoader$3": {
+    "name": "net/labymod/user/cosmetic/remote/RemoteCosmeticLoader$3",
+    "interfaces": [
+      "net/labymod/user/cosmetic/geometry/IGeometryProviderCallback"
+    ]
+  },
+  "net/labymod/user/cosmetic/remote/model/RemoteObject": {
+    "name": "net/labymod/user/cosmetic/remote/model/RemoteObject",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "ratio",
+        "value": {
+          "value": "frame_aspect_ratio"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "animationDelay",
+        "value": {
+          "value": "frame_animation_delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "nametagOffset",
+        "value": {
+          "value": "nametag_offset"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "moveType",
+        "value": {
+          "value": "move_type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "textureType",
+        "value": {
+          "value": "texture_type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "attachedTo",
+        "value": {
+          "value": "attached_to"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mirror",
+        "value": {
+          "value": "mirror"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mirrorType",
+        "value": {
+          "value": "mirror_type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "textureDirectory",
+        "value": {
+          "value": "texture_directory"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "hideCape",
+        "value": {
+          "value": "hide_cape"
+        }
+      }
+    ]
+  },
+  "net/labymod/user/emote/EmoteLoader$1": {
+    "name": "net/labymod/user/emote/EmoteLoader$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/user/emote/EmoteRegistry": {
+    "name": "net/labymod/user/emote/EmoteRegistry",
+    "interfaces": [
+      "net/labymod/utils/Consumer",
+      "net/labymod/api/events/ServerMessageEvent"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/user/emote/EmoteRegistry$1": {
+    "name": "net/labymod/user/emote/EmoteRegistry$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/user/emote/EmoteRegistry$2": {
+    "name": "net/labymod/user/emote/EmoteRegistry$2",
+    "interfaces": [
+      "com/google/common/util/concurrent/FutureCallback"
+    ]
+  },
+  "net/labymod/user/emote/keys/EmoteKeyFrame": {
+    "name": "net/labymod/user/emote/keys/EmoteKeyFrame",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(J[Lnet/labymod/user/emote/keys/EmotePose;)V",
+        "value": {
+          "values": [
+            "offset",
+            "emotePoses"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/user/emote/keys/EmotePose": {
+    "name": "net/labymod/user/emote/keys/EmotePose",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(IFFFZ)V",
+        "value": {
+          "values": [
+            "bodyPart",
+            "x",
+            "y",
+            "z",
+            "interpolate"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/user/emote/keys/PoseAtTime": {
+    "name": "net/labymod/user/emote/keys/PoseAtTime",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lnet/labymod/user/emote/keys/EmotePose;JZ)V",
+        "value": {
+          "values": [
+            "pose",
+            "offset",
+            "animate"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/user/emote/keys/provider/KeyFrameStorage": {
+    "name": "net/labymod/user/emote/keys/provider/KeyFrameStorage",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(SLjava/lang/String;J[Lnet/labymod/user/emote/keys/EmoteKeyFrame;)V",
+        "value": {
+          "values": [
+            "id",
+            "name",
+            "timeout",
+            "keyframes"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/user/emote/keys/provider/StoredEmote$1": {
+    "name": "net/labymod/user/emote/keys/provider/StoredEmote$1",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "net/labymod/user/group/GroupManager$1": {
+    "name": "net/labymod/user/group/GroupManager$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/user/group/LabyGroup": {
+    "name": "net/labymod/user/group/LabyGroup",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "displayName",
+        "value": {
+          "value": "nice_name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "colorHex",
+        "value": {
+          "value": "color_hex"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "colorMinecraft",
+        "value": {
+          "value": "color_minecraft"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "tagName",
+        "value": {
+          "value": "tag_name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "displayTypeString",
+        "value": {
+          "value": "display_type"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/awt/Color;Lnet/labymod/user/group/EnumGroupDisplayType;)V",
+        "value": {
+          "values": [
+            "id",
+            "name",
+            "displayName",
+            "colorHex",
+            "colorMinecraft",
+            "tagName",
+            "displayTypeString",
+            "color",
+            "displayType"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/user/gui/UserActionGui": {
+    "name": "net/labymod/user/gui/UserActionGui",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent"
+    ]
+  },
+  "net/labymod/user/gui/UserActionGui$1": {
+    "name": "net/labymod/user/gui/UserActionGui$1",
+    "interfaces": [
+      "net/labymod/user/util/UserActionEntry$ActionExecutor"
+    ]
+  },
+  "net/labymod/user/gui/UserActionGui$2": {
+    "name": "net/labymod/user/gui/UserActionGui$2",
+    "interfaces": [
+      "net/labymod/user/util/UserActionEntry$ActionExecutor"
+    ]
+  },
+  "net/labymod/user/gui/UserActionGui$3": {
+    "name": "net/labymod/user/gui/UserActionGui$3",
+    "interfaces": [
+      "net/labymod/user/util/UserActionEntry$ActionExecutor"
+    ]
+  },
+  "net/labymod/user/sticker/StickerRegistry": {
+    "name": "net/labymod/user/sticker/StickerRegistry",
+    "interfaces": [
+      "net/labymod/api/events/ServerMessageEvent"
+    ]
+  },
+  "net/labymod/user/sticker/StickerRegistry$1": {
+    "name": "net/labymod/user/sticker/StickerRegistry$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/user/sticker/StickerRegistry$2": {
+    "name": "net/labymod/user/sticker/StickerRegistry$2",
+    "interfaces": [
+      "com/google/common/util/concurrent/FutureCallback"
+    ]
+  },
+  "net/labymod/user/sticker/data/Sticker": {
+    "name": "net/labymod/user/sticker/data/Sticker",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(SLjava/lang/String;[Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "id",
+            "name",
+            "tags"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/utils/UUIDFetcher$1": {
+    "name": "net/labymod/utils/UUIDFetcher$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/UUIDFetcher$2": {
+    "name": "net/labymod/utils/UUIDFetcher$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/UUIDFetcher$3": {
+    "name": "net/labymod/utils/UUIDFetcher$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/UUIDFetcher$4": {
+    "name": "net/labymod/utils/UUIDFetcher$4",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/UUIDFetcher$5": {
+    "name": "net/labymod/utils/UUIDFetcher$5",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/credentials/linux/GKLib": {
+    "name": "net/labymod/utils/credentials/linux/GKLib",
+    "interfaces": [
+      "com/sun/jna/Library"
+    ]
+  },
+  "net/labymod/utils/credentials/linux/LinuxCredentialsAccessor": {
+    "name": "net/labymod/utils/credentials/linux/LinuxCredentialsAccessor",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/credentials/CredentialsAccessor"
+    ]
+  },
+  "net/labymod/utils/credentials/mac/MacOSCredentialsAccessor": {
+    "name": "net/labymod/utils/credentials/mac/MacOSCredentialsAccessor",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/credentials/CredentialsAccessor"
+    ]
+  },
+  "net/labymod/utils/credentials/windows/Advapi32_Credentials": {
+    "name": "net/labymod/utils/credentials/windows/Advapi32_Credentials",
+    "interfaces": [
+      "com/sun/jna/win32/StdCallLibrary"
+    ]
+  },
+  "net/labymod/utils/credentials/windows/WindowsCredentialsAccessor": {
+    "name": "net/labymod/utils/credentials/windows/WindowsCredentialsAccessor",
+    "interfaces": [
+      "net/labymod/accountmanager/storage/credentials/CredentialsAccessor"
+    ]
+  },
+  "net/labymod/utils/manager/MarkerManager": {
+    "name": "net/labymod/utils/manager/MarkerManager",
+    "interfaces": [
+      "net/labymod/api/events/PluginMessageEvent",
+      "net/labymod/api/events/ServerMessageEvent",
+      "net/labymod/utils/Consumer"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderWorld(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "net/labymod/utils/manager/MarkerManager$Marker": {
+    "name": "net/labymod/utils/manager/MarkerManager$Marker",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(IIIJZLjava/util/UUID;Lvg;)V",
+        "value": {
+          "values": [
+            "x",
+            "y",
+            "z",
+            "timestamp",
+            "isOutside",
+            "target",
+            "cachedEntity"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/utils/manager/TooltipHelper": {
+    "name": "net/labymod/utils/manager/TooltipHelper",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderTick(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/HIGHEST"
+          }
+        }
+      }
+    ]
+  },
+  "net/labymod/utils/request/DownloadServerRequest$1": {
+    "name": "net/labymod/utils/request/DownloadServerRequest$1",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/utils/request/DownloadServerRequest$2": {
+    "name": "net/labymod/utils/request/DownloadServerRequest$2",
+    "interfaces": [
+      "net/labymod/utils/request/ServerResponse"
+    ]
+  },
+  "net/labymod/utils/request/DownloadServerRequest$3": {
+    "name": "net/labymod/utils/request/DownloadServerRequest$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/request/DownloadServerRequest$4": {
+    "name": "net/labymod/utils/request/DownloadServerRequest$4",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/request/DownloadServerRequest$5": {
+    "name": "net/labymod/utils/request/DownloadServerRequest$5",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/request/InputStreamOutput": {
+    "name": "net/labymod/utils/request/InputStreamOutput",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Ljava/io/InputStream;I)V",
+        "value": {
+          "values": [
+            "inputStream",
+            "contentLength"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/utils/texture/DynamicModTexture": {
+    "name": "net/labymod/utils/texture/DynamicModTexture",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Ljava/beans/ConstructorProperties;",
+        "target": "\u003cinit\u003e(Lnf;Ljava/lang/String;)V",
+        "value": {
+          "values": [
+            "resourceLocation",
+            "url"
+          ]
+        }
+      }
+    ]
+  },
+  "net/labymod/utils/texture/DynamicTextureManager$1": {
+    "name": "net/labymod/utils/texture/DynamicTextureManager$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/utils/texture/DynamicTextureManager$2": {
+    "name": "net/labymod/utils/texture/DynamicTextureManager$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/texture/PlayerSkinTextureCache$1": {
+    "name": "net/labymod/utils/texture/PlayerSkinTextureCache$1",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/utils/texture/PlayerSkinTextureCache$2": {
+    "name": "net/labymod/utils/texture/PlayerSkinTextureCache$2",
+    "interfaces": [
+      "net/labymod/utils/Consumer"
+    ]
+  },
+  "net/labymod/utils/texture/PlayerSkinTextureCache$3": {
+    "name": "net/labymod/utils/texture/PlayerSkinTextureCache$3",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/texture/PlayerSkinTextureCache$3$1": {
+    "name": "net/labymod/utils/texture/PlayerSkinTextureCache$3$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/texture/ThreadDownloadTextureImage$1": {
+    "name": "net/labymod/utils/texture/ThreadDownloadTextureImage$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/labymod/utils/texture/async/AsyncTextureUtil$1": {
+    "name": "net/labymod/utils/texture/async/AsyncTextureUtil$1",
+    "interfaces": [
+      "java/util/function/Supplier"
+    ]
+  }
+}

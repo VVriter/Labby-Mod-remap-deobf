@@ -1,0 +1,15 @@
+[
+{
+  "modid": "labymod",
+  "name": "LabyMod",
+  "description": "LabyMod extends Minecraft by adding a variety of useful features. Through cooperation with many large Minecraft servers, LabyMod provides exclusive features and information for various gamemodes.",
+  "version": "3.9.41",
+  "mcversion": "1.12.2",
+  "url": "https://www.labymod.net/",
+  "updateUrl": "https://www.labymod.net/download",
+  "authorList": ["LabyStudio"],
+  "credits": "LabyMod by LabyMedia",
+  "logoFile": "assets/minecraft/labymod/textures/labymod_logo.png",
+  "dependencies": []
+}
+]
